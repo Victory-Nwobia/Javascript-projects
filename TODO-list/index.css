@@ -13,6 +13,7 @@
 }
 #newtask{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 input{
     font-size: 15px;
@@ -29,7 +30,25 @@ input{
     border-radius: 5px;
 }
 #checkmark{
-    width: 25px;
-    height: 25px;
-    
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#tasks{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+#task_text{
+    font-size: 15px;
+    margin: 0px 20px;
+}
+#task_btn{
+    padding: 10px 10px;
+    font-size: 12px;
+    color:white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }

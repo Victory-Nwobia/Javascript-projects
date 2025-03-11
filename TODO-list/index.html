@@ -11,12 +11,17 @@
     <div id="app">
         <h1>Todo List</h1>
         <div id="newtask">
-            <input type="text" placeholder="New Task">
-            <button id="newtext-btn">New Task</button>
+            <input type="text" placeholder="New Task" id="new">
+            <button id="newtext-btn" onclick="newtask()">New Task</button>
         </div>
+        <div id="tasklist">
         <div id="tasks">
-           <input type="checkbox" id="checkmark"> 
+           <input type="checkbox" id="checkmark" onclick="check()" > 
+           <p id="task_text">Wash clothes on satuday</p>
+           <button id="task_btn" onclick="deletetask()">Delete</button>
         </div>
+        </div>
+        
     </div>
     
 
